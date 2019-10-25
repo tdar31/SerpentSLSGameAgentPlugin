@@ -76,7 +76,7 @@ class SerpentSlayTheSpireGameAgent(GameAgent):
             card_inputs=[1, 2, 3, 4, 5, "E"]
         )
 
-        # card_selection_model_file_path = "datasets/tdar31_slaythespire_dqn_0.9981189999999986_.h5".replace("/", os.sep)
+        card_selection_model_file_path = "datasets/tdar31_slaythespire_dqn_0.9981189999999986_.h5".replace("/", os.sep)
 
         # DDQN setup
         self.dqn_card_selection = DDQN(
